@@ -7,9 +7,11 @@
         <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/drawable/ic_add.xml" value="0.2255" />
         <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
         <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/layout/activity_formulario_aluno.xml" value="0.2128623188405797" />
+        <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/layout/activity_lista_alunos.xml" value="0.11322188449848024" />
         <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/menu/activity_formulario_aluno_menu.xml" value="0.36666666666666664" />
-        <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/menu/activity_lista_alunos_menu.xml" value="0.33796296296296297" />
+        <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/layout/item_aluno.xml" value="0.33" />
+        <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/menu/activity_formulario_aluno_menu.xml" value="0.1" />
+        <entry key="..\:/Projects/Legalizzr/agenda/app/src/main/res/menu/activity_lista_alunos_menu.xml" value="0.1" />
         <entry key="..\:/Users/wesley.pereira_south/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.2346014492753623" />
       </map>
     </option>

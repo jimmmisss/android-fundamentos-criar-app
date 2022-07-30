@@ -8,8 +8,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.annotation.NonNull;
@@ -43,7 +41,7 @@ public class FormularioAlunoActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int itemId = item.getItemId();
+        var itemId = item.getItemId();
         if (itemId == R.id.activity_formulario_aluno_menu_salvar) {
             finalizaFormulario();
         }
@@ -51,7 +49,7 @@ public class FormularioAlunoActivity extends AppCompatActivity {
     }
 
     private void carregaAluno() {
-        Intent dados = getIntent();
+        var dados = getIntent();
         if (dados.hasExtra(CHAVE_ALUNO)) {
             setTitle(TITULO_APPBAR_EDITA_ALUNO);
             aluno = (Aluno) dados.getSerializableExtra(CHAVE_ALUNO);
@@ -85,9 +83,9 @@ public class FormularioAlunoActivity extends AppCompatActivity {
     }
 
     private void preencheAluno() {
-        String nome = campoNome.getText().toString();
-        String telefone = campoTelefone.getText().toString();
-        String email = campoEmail.getText().toString();
+        var nome = campoNome.getText().toString();
+        var telefone = campoTelefone.getText().toString();
+        var email = campoEmail.getText().toString();
 
         aluno.setNome(nome);
         aluno.setTelefone(telefone);
